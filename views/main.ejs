@@ -1,0 +1,39 @@
+<%- include('header') %>
+
+<div class="container mt-4">
+    <h1>Welcome to My Website</h1>
+    <p>This is the main content area.</p>
+</div>
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chính</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+    <style>
+        .hero {
+            background-image: url('https://source.unsplash.com/1600x900/?nature,water');
+            background-size: cover;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <%- include('header') %>
+    <main>
+        <div class="hero">
+            <h1>Chào mừng đến với trang chính!</h1>
+            <p>Đây là nội dung chính của trang.</p>
+        </div>
+        <div class="container mt-5">
+            <h2 class="text-center">Thông tin thêm</h2>
+            <p class="text-center">Đây là nơi bạn có thể thêm nhiều thông tin thú vị khác cho người dùng.</p>
+        </div>
+    </main>
+    <%- include('footer') %>
+</body>
+</html>

@@ -1,9 +1,9 @@
 import express from 'express'
 import dotenv from 'dotenv/config'
-import myDateTime from './date'
-import getPath from './getURL'
-import getParamsURL from './getURL'
-import viewEngine from './viewEngine'
+import myDateTime from './date.js'
+import getPath from './getURL.js'
+import getParamsURL from './getURL.js'
+import viewEngine from './viewEngine.js'
 const app = express()
 const port=process.env.port
 
